@@ -1,0 +1,6 @@
+.details-page-outer-div{
+  background-color: var(--grey-900, #19191A);
+  background-image: url("../assets/images/details_page_bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
