@@ -5,7 +5,7 @@ import "../../stylesheets/insightSection.css"
 
 export const InsightSection = () => {
   return (
-    <div className='flex-justify-between insight-section-outer-div'>
+    <div className='grid-col-1-2 insight-section-outer-div'>
 
       <InsightPoster />
 

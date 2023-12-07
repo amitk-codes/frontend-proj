@@ -7,8 +7,8 @@
 
 
 .insight-poster-div {
-  width: 335px;
-  height: 306px;
+  max-width: 335px;
+  max-height: 306px;
 }
 
 .insight-info-div {
@@ -17,7 +17,7 @@
   display: flex;
   flex-direction: column;
   gap: 16px;
-  width: 305px;
+  max-width: 305px;
 }
 
 .insight-poster-img {

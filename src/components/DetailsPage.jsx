@@ -5,7 +5,7 @@ import { InsightSection } from "./insightSection";
 
 export const DetailsPage = () => {
   return (
-    <div className="width-100 details-page-outer-div">
+    <div className="details-page-outer-div">
       <NotificationSection/>
       <InsightSection/>
 

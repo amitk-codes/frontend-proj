@@ -4,7 +4,7 @@ import "./App.css"
 
 function App() {
   return (
-    <div className="flex-justify-between">
+    <div className="flex">
       <DetailsPage/>
       <AuthPage/>
     </div>
