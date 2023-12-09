@@ -10,10 +10,10 @@ export const NotificationSection = () => {
   return (
     <div className='notification-outer-div grid-col-1-2'>
       <NotificationInfo />
-      {/* <NotificationCarousel/> */}
+      <NotificationCarousel/>
       {/* <Carousel1/> */}
       {/* <Carousel2 /> */}
-      <Carousel3/>
+      {/* <Carousel3/> */}
     </div>
   );
 }
