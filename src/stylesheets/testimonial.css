@@ -1,0 +1,64 @@
+@import url("./importedGoogleFonts.css");
+
+
+.testimonial-heading {
+  color: var(--Background---F2F2F2, #F2F2F2);
+  text-align: right;
+
+  font-family: "Inter", sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  margin-top: 22px;
+  margin-bottom: 20px;
+}
+
+.testimonial-separator{
+  height: 1px;
+  background: rgba(229, 229, 230, 0.50);
+  margin-bottom: 40px;
+}
+
+
+.testimonial-outer-div {
+  display: flex;
+  border: 2px solid red;
+  min-width: 353px;
+  max-height: 136px;
+  padding: 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  border-radius: 12px;
+  background: var(--White, #FFF);
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.04), 0px 4px 10px 0px rgba(0, 0, 0, 0.04);
+}
+
+
+.testimonial-name {
+  color: var(--grey-900, #19191A);
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+}
+
+.testimonial-position {
+  color: var(--grey-400, #96979A);
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+}
+
+.testimonial-content {
+  color: var(--text-5, #1D2129);
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+}
