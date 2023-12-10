@@ -15,6 +15,11 @@
   justify-content: space-between;
 }
 
+.flex-align-center{
+  display: flex;
+  align-items: center;
+}
+
 .flex-justify-align-center{
   display: flex;
   justify-content: center;
@@ -27,4 +32,18 @@
 
 .height-100svh{
   height: 100svh;
+}
+
+.margin-top-auto{
+  margin-top: auto;
+}
+
+.margin-bottom-auto{
+  margin-bottom: auto;
+}
+.margin-left-auto{
+  margin-left: auto;
+}
+.margin-right-auto{
+  margin-right: auto;
 }
