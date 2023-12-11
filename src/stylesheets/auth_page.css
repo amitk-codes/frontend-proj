@@ -1,7 +1,87 @@
+@import url("./importedGoogleFonts.css");
 
 .auth-page-outer-div {
     height: 100svh;
     width: 100%;
     background: #FFF;
     box-shadow: 0px 14px 64px -4px rgba(24, 39, 75, 0.12), 0px 8px 22px -6px rgba(24, 39, 75, 0.12);
+}
+
+.auth-main-div {
+    width: 340px;
+
+}
+
+.auth_heading {
+    color: var(--grey-300, #B0B1B3);
+    font-family: "Inter", sans-serif;
+    font-size: 39px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+
+}
+
+.auth_input {
+    display: flex;
+    width: 100%;
+    padding: 20px 24px;
+    align-items: center;
+
+    border-radius: 8px;
+    border: 1px solid var(--grey-100, #E5E5E6);
+    background: #FFF;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.04), 0px 4px 10px 0px rgba(0, 0, 0, 0.04);
+    margin: 32px 0 24px 0;
+}
+
+.auth_input::placeholder {
+    color: var(--grey-200, #CACBCC);
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.auth_button {
+    display: flex;
+    width: 100%;
+    height: 59px;
+    padding: 18px 28px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid var(--grey-900, #19191A);
+    background: var(--grey-900, #19191A);
+
+    color: var(--White, #FFF);
+    text-align: center;
+
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.auth_message {
+
+    display: flex;
+    padding: 18px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+
+    color: var(--grey-900, #19191A);
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    white-space: nowrap;
+    margin-top: 24px;
 }

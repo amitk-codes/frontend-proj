@@ -12,9 +12,9 @@
   grid-template-columns: repeat(1, auto);
 }
 
-.auth-page-outer-div{
+/* .auth-page-outer-div{
   display: none;
-}
+} */
 
 
 @media (min-width: 600px) {
