@@ -2,15 +2,21 @@
 
 .notification-outer-div {
   min-height: 251px;
+  margin: auto;
 }
 
 .notification-info-outer-div{
   max-width: 322px;
+  /* max-width: 100%; */
   max-height: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  margin: auto;
   gap: 16px;
   margin-right: 66px;
+  /* margin-bottom: 16px; */
 
 }
 
@@ -149,4 +155,38 @@
   right: 0;
   background: linear-gradient(90deg,rgba(0, 0, 0, 0.04), rgba(0, 0, 0, 0.64));
 
+}
+
+
+@media (max-width: 800px){
+
+  .notification-outer-div{
+    max-width: 380px;
+  }
+
+  .notification-info-outer-div{
+    max-width: 100%;
+    margin-right: 0;
+    margin-bottom: 16px;
+  }
+
+  .swiper-outer-div{
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 1100px) and (max-width: 1400px){
+  .notification-outer-div{
+    max-width: 400px;
+  }
+
+  .notification-info-outer-div{
+    max-width: 100%;
+    margin-right: 0;
+    margin-bottom: 16px;
+  }
+
+  .swiper-outer-div{
+    max-width: 100%;
+  }
 }

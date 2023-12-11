@@ -53,3 +53,61 @@
 
 
 }
+
+
+
+@media (max-width: 800px) {
+
+  .insight-section-outer-div {
+    max-width: 380px;
+    margin: auto;
+  }
+
+  .insight-poster-div {
+    margin-top: 16px;
+    max-width: 100%;
+    max-height: 100%;
+    order: 2;
+  }
+
+  .insight-info-div {
+    max-width: 100%;
+    order: 1;
+    margin-top: 65px;
+    direction: ltr;
+
+  }
+
+  .insight-info-heading,
+  .insight-info-content {
+    text-align: left;
+  }
+
+}
+
+@media (min-width: 1100px) and (max-width: 1400px) {
+  .insight-section-outer-div {
+    max-width: 380px;
+    margin: auto;
+  }
+
+  .insight-poster-div {
+    margin-top: 16px;
+    max-width: 100%;
+    max-height: 100%;
+    order: 2;
+  }
+
+  .insight-info-div {
+    max-width: 100%;
+    order: 1;
+    margin-top: 65px;
+    direction: ltr;
+
+  }
+
+  .insight-info-heading,
+  .insight-info-content {
+    text-align: left;
+  }
+}

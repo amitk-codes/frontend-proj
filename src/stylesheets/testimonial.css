@@ -3,14 +3,14 @@
 
 .testimonial-heading {
   color: var(--Background---F2F2F2, #F2F2F2);
-  text-align: right;
+  text-align: left;
 
   font-family: "Inter", sans-serif;
   font-size: 25px;
   font-style: normal;
   font-weight: 500;
   line-height: 120%;
-  margin-top: 22px;
+  margin-top: 65px;
   margin-bottom: 20px;
 }
 

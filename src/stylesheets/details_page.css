@@ -3,15 +3,11 @@
   background-image: url("../assets/images/details_page_bg.svg");
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 62px;
-  padding-right: 0;
+  padding: 40px;
   width: 100%;
-  /* max-width: 800px;
-  min-width: 800px; */
 }
 
 .grid-col-1-2{
-  border: 2px solid red;
   display: grid;
   grid-template-columns: repeat(1, auto);
 }
@@ -21,10 +17,22 @@
 }
 
 
+@media (min-width: 600px) {
+  .details-page-outer-div{
+    padding: 62px;
+  }
+}
+
+
+
 
 @media (min-width: 800px) {
   .grid-col-1-2{
     grid-template-columns: repeat(2, auto);
+  }
+
+  .details-page-outer-div{
+    padding: 62px;
   }
 
   /* .auth-page-outer-div{
@@ -35,6 +43,8 @@
     width: 100%;
   } */
 }
+
+
 
 
 

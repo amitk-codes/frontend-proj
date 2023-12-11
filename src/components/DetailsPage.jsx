@@ -10,8 +10,6 @@ export const DetailsPage = () => {
       <NotificationSection/>
       <InsightSection/>
       <TestimonialSection/>
-
-
     </div>
   )
 }
