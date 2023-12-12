@@ -1,51 +1,114 @@
-
-
-
 /* ------ Utility Classes ------ */
 
-.flex{
+.flex {
   display: flex;
 }
 
-.flex-justify-center{
+.flex-justify-center {
   display: flex;
   justify-content: center;
 }
 
-.flex-justify-between{
+.flex-justify-between {
   display: flex;
   justify-content: space-between;
 }
 
-.flex-align-center{
+.flex-align-center {
   display: flex;
   align-items: center;
 }
 
-.flex-justify-align-center{
+.flex-justify-align-center {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.width-100{
+.width-100 {
   width: 100%;
 }
 
-.height-100svh{
+.height-100svh {
   height: 100svh;
 }
 
-.margin-top-auto{
+.margin-top-auto {
   margin-top: auto;
 }
 
-.margin-bottom-auto{
+.margin-bottom-auto {
   margin-bottom: auto;
 }
-.margin-left-auto{
+
+.margin-left-auto {
   margin-left: auto;
 }
-.margin-right-auto{
+
+.margin-right-auto {
   margin-right: auto;
+}
+
+.opacity-0{
+  opacity: 0;
+}
+
+.opacity-1{
+  opacity: 1;
+}
+
+.pointer-event-none{
+  pointer-events: none;
+}
+
+/* ----------------------------------------- */
+
+.back-btn-div {
+  position: absolute;
+  top: 1.5rem;
+  left: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 50px;
+  box-shadow: 0 0 10px;
+  cursor: pointer;
+
+}
+
+.back-btn {
+  transform: translateX(-1px);
+}
+
+.app-container {
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.details-page-outer-div,
+.auth-page-outer-div {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  transition: transform 0.5s ease-in-out;
+  font-size: 24px;
+}
+
+.details-page-outer-div {
+  transform: translateX(-100%);
+}
+
+.auth-page-outer-div {
+  transform: translateX(100%);
+}
+
+.details-page-outer-div.active {
+  transform: translateX(0);
+}
+
+.auth-page-outer-div.active {
+  transform: translateX(0);
 }
