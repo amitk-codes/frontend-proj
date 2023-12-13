@@ -13,7 +13,7 @@
   flex-direction: column;
   justify-content: center;
   /* align-items: center; */
-  margin: auto;
+  /* margin: auto; */
   gap: 16px;
   margin-right: 66px;
   /* margin-bottom: 16px; */
@@ -134,6 +134,10 @@
   border-radius: 9px;
   position: relative;
   height: fit-content;
+}
+
+.notification-swiper-main .swiper-wrapper{
+  max-width: 250px;
 }
 
 .overlay-left,

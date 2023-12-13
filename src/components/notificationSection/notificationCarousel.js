@@ -24,7 +24,7 @@ export const NotificationCarousel = () => {
         }}
         loop
         modules={[Pagination, Autoplay]}
-        className="mySwiper"
+        className="mySwiper notification-swiper-main"
       >
         <SwiperSlide style={{width: "min-content"}}><Carousel1/></SwiperSlide>
         <SwiperSlide style={{width: "min-content"}}><Carousel2/></SwiperSlide>
