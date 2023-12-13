@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "../stylesheets/details_page.css"
 import { NotificationSection } from "./notificationSection";
 import { InsightSection } from "./insightSection";

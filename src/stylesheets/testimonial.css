@@ -3,8 +3,7 @@
 
 .testimonial-heading {
   color: var(--Background---F2F2F2, #F2F2F2);
-  text-align: left;
-
+  margin-left: auto;
   font-family: "Inter", sans-serif;
   font-size: 25px;
   font-style: normal;
@@ -14,7 +13,7 @@
   margin-bottom: 20px;
 }
 
-.testimonial-separator{
+.testimonial-separator {
   height: 1px;
   background: rgba(229, 229, 230, 0.50);
   margin-bottom: 40px;
@@ -23,7 +22,6 @@
 
 .testimonial-outer-div {
   display: flex;
-  border: 2px solid red;
   min-width: 353px;
   max-height: 136px;
   padding: 20px;
@@ -33,6 +31,10 @@
   border-radius: 12px;
   background: var(--White, #FFF);
   box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.04), 0px 4px 10px 0px rgba(0, 0, 0, 0.04);
+}
+
+.testimonial-outer-div-3 {
+  min-width: 491px;
 }
 
 
@@ -61,4 +63,96 @@
   font-style: normal;
   font-weight: 500;
   line-height: 120%;
+}
+
+.testimonial-outer-div>div:first-child {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo-in-heading{
+  display: none;
+}
+
+.logo-in-outer-container{
+  margin-right: 40px;
+}
+
+
+
+@media (max-width: 800px) {
+
+  .testimonial-heading{
+    margin-left: 0;
+  }
+
+  .testimonial-outer-container {
+    max-width: 380px;
+    margin: auto;
+  }
+
+  .testimonial-outer-div {
+    min-width: 300px;
+    max-height: 210px;
+    min-height: 210px;
+  }
+
+  .testimonial-outer-div-3 {
+    min-width: 350px;
+    max-height: 210px;
+    min-height: 210px;
+  }
+
+  .testimonial-outer-div>div:first-child {
+    align-items: start;
+    flex-direction: column;
+  }
+
+  .logo-in-heading{
+    display: block;
+  }
+
+  .logo-in-outer-container{
+    display: none;
+  }
+
+}
+
+@media (min-width: 1100px) and (max-width: 1400px) {
+  .testimonial-outer-container {
+    max-width: 380px;
+    margin: auto;
+  }
+
+  .testimonial-heading{
+    margin-left: 0;
+  }
+
+  .testimonial-outer-div {
+    min-width: 300px;
+    max-height: 210px;
+    min-height: 210px;
+  }
+
+  .testimonial-outer-div-3 {
+    min-width: 350px;
+    max-height: 210px;
+    min-height: 210px;
+  }
+
+  .testimonial-outer-div>div:first-child {
+    align-items: start;
+    flex-direction: column;
+  }
+
+  .logo-in-heading{
+    display: block;
+  }
+
+  .logo-in-outer-container{
+    display: none;
+  }
+
+
 }

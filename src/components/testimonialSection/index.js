@@ -8,14 +8,12 @@ import { TestimonialCarousel } from './testimonialCarousel';
 
 export const TestimonialSection = () => {
   return (
-    <div>
+    <div className='testimonial-outer-container'>
       <Heading />
 
       <div className='flex'>
-
-        <div className='margin-top-auto'>
-          <img src={LogoIcon} alt='logo icon' className='' />
-
+        <div className='margin-top-auto logo-in-outer-container'>
+          <img src={LogoIcon} alt='logo icon' />
         </div>
 
         <TestimonialCarousel />

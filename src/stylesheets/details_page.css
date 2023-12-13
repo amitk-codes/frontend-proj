@@ -3,7 +3,7 @@
   background-image: url("../assets/images/details_page_bg.svg");
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 40px;
+  padding: 20px;
   width: 100%;
 }
 
@@ -93,8 +93,18 @@
   .details-page-outer-div {
     max-width: 800px;
     min-width: 800px;
-
-
-
   }
+
+  .swiper-outer-div{
+    margin-right: -65px;
+  }
+
+  .testimonial-swiper-main{
+    padding-right: 62px !important;
+  }
+
+}
+
+.details-page-outer-div{
+  padding-bottom: 100px;
 }

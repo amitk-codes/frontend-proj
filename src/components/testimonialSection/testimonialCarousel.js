@@ -4,13 +4,13 @@ import "../../stylesheets/testimonial.css"
 
 import 'swiper/css';
 
-import { Pagination } from 'swiper/modules';
+import { Autoplay, Pagination } from 'swiper/modules';
 import { testimonialData } from './data';
 import { TestimonialComponent } from './testimonialComponent';
 
 export const TestimonialCarousel = () => {
   return (
-    <div style={{ overflow: "hidden" }}>
+    <div className='swiper-outer-div'>
 
       <Swiper
         slidesPerView={'auto'}
@@ -18,17 +18,21 @@ export const TestimonialCarousel = () => {
         pagination={{
           clickable: true,
         }}
-        modules={[Pagination]}
-        className="mySwiper"
+        // loop`
+
+
+        modules={[Pagination, Autoplay]}
+        className="mySwiper testimonial-swiper-main"
       >
-        {testimonialData.map(({ name, position, content }) => {
+        {testimonialData.map(({ name, position, content }, index) => {
           return (
-            <SwiperSlide style={{ width: "min-content" }}>
+            <SwiperSlide style={{width: "min-content"}}>
 
               <TestimonialComponent
                 name={name}
                 position={position}
                 content={content}
+                index={index}
               />
 
             </SwiperSlide>
