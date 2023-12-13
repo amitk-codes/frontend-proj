@@ -104,7 +104,18 @@
 
 }
 
+.join-btn-div,
+.back-btn-div{
+  display:none;
+}
+
+
+
 @media (max-width: 1099.94px) {
+  .join-btn-div,
+  .back-btn-div{
+    display: flex;
+  }
   .app-container {
     position: relative;
     overflow: hidden;
