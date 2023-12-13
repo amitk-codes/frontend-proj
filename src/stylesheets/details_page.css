@@ -19,7 +19,8 @@
   flex-shrink: 0;
   border-radius: 8px;
   border: 1px solid var(--grey-900, #19191A);
-  background: var(--White, #FFF);;
+  background: var(--White, #FFF);
+  ;
 
   color: var(--grey-900, #19191A);
   text-align: center;
@@ -82,16 +83,16 @@
     min-width: 800px;
   }
 
-  .swiper-outer-div{
+  .swiper-outer-div {
     margin-right: -65px;
   }
 
-  .testimonial-swiper-main{
+  .testimonial-swiper-main {
     padding-right: 62px !important;
   }
 
 }
 
-.details-page-outer-div{
+.details-page-outer-div {
   padding-bottom: 100px;
 }

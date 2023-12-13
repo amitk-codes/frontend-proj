@@ -5,7 +5,7 @@
   margin: auto;
 }
 
-.notification-info-outer-div{
+.notification-info-outer-div {
   max-width: 322px;
   /* max-width: 100%; */
   max-height: 100%;
@@ -99,12 +99,12 @@
   line-height: 120%;
 }
 
-.notify-carousel-2-caption{
+.notify-carousel-2-caption {
   margin-top: 55.3px;
   margin-bottom: 14.6px;
 }
 
-.notify-carousel-3-caption{
+.notify-carousel-3-caption {
   margin-top: 39.2px;
   margin-bottom: 9px;
 }
@@ -125,7 +125,7 @@
   line-height: 120%;
 }
 
-.notify-carousel-3-dropdown{
+.notify-carousel-3-dropdown {
   margin-bottom: 8.4px;
 }
 
@@ -136,7 +136,7 @@
   height: fit-content;
 }
 
-.notification-swiper-main .swiper-wrapper{
+.notification-swiper-main .swiper-wrapper {
   max-width: 250px;
 }
 
@@ -154,46 +154,46 @@
 
 .overlay-left {
   left: 0;
-  background: linear-gradient(-90deg,rgba(0, 0, 0, 0.04), rgba(0, 0, 0, 0.64));
+  background: linear-gradient(-90deg, rgba(0, 0, 0, 0.04), rgba(0, 0, 0, 0.64));
 
 }
 
 .overlay-right {
   right: 0;
-  background: linear-gradient(90deg,rgba(0, 0, 0, 0.04), rgba(0, 0, 0, 0.64));
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.04), rgba(0, 0, 0, 0.64));
 
 }
 
 
-@media (max-width: 800px){
+@media (max-width: 800px) {
 
-  .notification-outer-div{
+  .notification-outer-div {
     max-width: 380px;
   }
 
-  .notification-info-outer-div{
+  .notification-info-outer-div {
     max-width: 100%;
     margin-right: 0;
     margin-bottom: 16px;
   }
 
-  .swiper-outer-div{
+  .swiper-outer-div {
     max-width: 100%;
   }
 }
 
-@media (min-width: 1100px) and (max-width: 1400px){
-  .notification-outer-div{
+@media (min-width: 1100px) and (max-width: 1400px) {
+  .notification-outer-div {
     max-width: 380px;
   }
 
-  .notification-info-outer-div{
+  .notification-info-outer-div {
     max-width: 100%;
     margin-right: 0;
     margin-bottom: 16px;
   }
 
-  .swiper-outer-div{
+  .swiper-outer-div {
     max-width: 100%;
   }
 }

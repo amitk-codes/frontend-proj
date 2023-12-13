@@ -1,7 +1,7 @@
-import { AuthPage } from "./components/AuthPage";
-import { DetailsPage } from "./components/DetailsPage";
-import "./App.css"
-import { useState } from "react";
+import { AuthPage } from './components/AuthPage'
+import { DetailsPage } from './components/DetailsPage'
+import './App.css'
+import { useState } from 'react'
 
 function App() {
   const [toSlide, setToSlide] = useState(false)
@@ -10,7 +10,7 @@ function App() {
       <DetailsPage toSlide={toSlide} setToSlide={setToSlide} />
       <AuthPage toSlide={toSlide} setToSlide={setToSlide} />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

@@ -71,11 +71,11 @@
   gap: 8px;
 }
 
-.logo-in-heading{
+.logo-in-heading {
   display: none;
 }
 
-.logo-in-outer-container{
+.logo-in-outer-container {
   margin-right: 40px;
 }
 
@@ -83,7 +83,7 @@
 
 @media (max-width: 800px) {
 
-  .testimonial-heading{
+  .testimonial-heading {
     margin-left: 0;
   }
 
@@ -109,11 +109,11 @@
     flex-direction: column;
   }
 
-  .logo-in-heading{
+  .logo-in-heading {
     display: block;
   }
 
-  .logo-in-outer-container{
+  .logo-in-outer-container {
     display: none;
   }
 
@@ -125,7 +125,7 @@
     margin: auto;
   }
 
-  .testimonial-heading{
+  .testimonial-heading {
     margin-left: 0;
   }
 
@@ -146,11 +146,11 @@
     flex-direction: column;
   }
 
-  .logo-in-heading{
+  .logo-in-heading {
     display: block;
   }
 
-  .logo-in-outer-container{
+  .logo-in-outer-container {
     display: none;
   }
 
