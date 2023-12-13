@@ -8,9 +8,8 @@ export const AuthPage = ({ toSlide, setToSlide }) => {
     <div className={`auth-page-outer-div ${!toSlide ? '' : 'active'} flex-justify-align-center `}>
 
       <div className="auth-main-div">
-        <BackBtn setToSlide={setToSlide} />
         <Heading />
-        <Input />
+        <Input setToSlide={setToSlide} />
 
       </div>
 
