@@ -3,14 +3,14 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 import 'swiper/css';
 
-import { Pagination } from 'swiper/modules';
+import { Autoplay, Pagination } from 'swiper/modules';
 import { Carousel1 } from './notificationCarousel1';
 import { Carousel2 } from './notificationCarousel2';
 import { Carousel3 } from './notificationCarousel3';
 
 export const NotificationCarousel = () => {
   return (
-    <div style={{overflow: "hidden"}} className='swiper-outer-div'>
+    <div className='swiper-outer-div'>
       <div className="overlay-left" />
 
       <Swiper
@@ -19,7 +19,11 @@ export const NotificationCarousel = () => {
         pagination={{
           clickable: true,
         }}
-        modules={[Pagination]}
+        autoplay={{
+          delay: 2000
+        }}
+        loop
+        modules={[Pagination, Autoplay]}
         className="mySwiper"
       >
         <SwiperSlide style={{width: "min-content"}}><Carousel1/></SwiperSlide>
