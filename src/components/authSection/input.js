@@ -27,6 +27,7 @@ export const Input = ({ setToSlide }) => {
         className="auth_input"
         value={inputValue}
         onChange={handleChange}
+        placeholder='Your email address'
       />
       <div
         className={`email-validator-message ${
